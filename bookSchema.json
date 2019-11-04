@@ -1,0 +1,80 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "https://eighlol.github.io/semantic-tagging/",
+    "mainEntity": {
+        "@type": "Book",
+        "author": [
+            {
+                "@type": "Person",
+                "familyName": "Jelčins",
+                "givenName": "Antons",
+                "name": "Antons Jelčins"
+            },
+            {
+                "@type": "Person",
+                "familyName": "Griņuka",
+                "givenName": "Viktorija",
+                "name": "Viktorija Griņuka"
+            }
+        ],
+        "target": {
+            "@type": "EntryPoint",
+            "actionPlatform": [
+                "http://schema.org/DesktopWebPlatform",
+                "http://schema.org/MobileWebPlatform"
+            ]
+        },
+        "image": {
+            "@type": "ImageObject",
+            "author": "Viktorija Griņuka",
+            "contentUrl": "book.jpg",
+            "datePublished": "2019-11",
+            "description": "This is a image of a cover book \" How to not give up and continue studying at University\".",
+            "name": "\"How to not give up and continue studying at University\" cover image."
+        },
+        "bookFormat": "http://schema.org/Paperback",
+        "datePublished": "2019-11",
+        "inLanguage": "en",
+        "isbn": "1234567890123",
+        "name": "How to not give up and continue studying at University",
+        "numberOfPages": "100",
+        "publisher": {
+            "@type": "Person",
+            "name": "Antons Jelčins",
+            "familyName": "Jelčins",
+            "givenName": "Antons"
+        },
+        "offers": {
+            "@type": "Offer",
+            "availability": "http://schema.org/PreOrder",
+            "price": "9.99",
+            "priceCurrency": "USD",
+            "eligibleRegion": "GB"
+        },
+        "url": "https://eighlol.github.io/semantic-tagging/",
+        "workExample": {
+            "@type": "Book",
+            "datePublished": "2019-11",
+            "isbn": "1234567890123",
+            "bookFormat": "http://schema.org/Paperback",
+            "publisher": {
+                "@type": "Person",
+                "name": "Antons Jelčins",
+                "familyName": "Jelčins",
+                "givenName": "Antons"
+            },
+            "potentialAction": {
+                "@type": "ReadAction",
+                "agent": {
+                    "@type": "Person",
+                    "name": "Antons Jelčins"
+                },
+                "object": {
+                    "@type": "Book",
+                    "name": "How to not give up and continue studying at University"
+                }
+            }
+        }
+    }
+}

@@ -28,7 +28,7 @@
         "image": {
             "@type": "ImageObject",
             "author": "Viktorija Griņuka",
-            "contentUrl": "book.jpg",
+            "contentUrl": "https://eighlol.github.io/semantic-tagging/book.png",
             "datePublished": "2019-11",
             "description": "This is a image of a cover book \" How to not give up and continue studying at University\".",
             "name": "\"How to not give up and continue studying at University\" cover image."
@@ -53,6 +53,7 @@
             "eligibleRegion": "GB"
         },
         "url": "https://eighlol.github.io/semantic-tagging/",
+        "abstract": "This book was written by 2 studens Viktorija and Antons, who had problems with motivation, while studying at University. They have researched this problem and found how to fix it and managed to apply these techniques to themself and finish University.",
         "workExample": {
             "@type": "Book",
             "datePublished": "2019-11",

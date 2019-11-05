@@ -17,14 +17,7 @@
                 "givenName": "Viktorija",
                 "name": "Viktorija Griņuka"
             }
-        ],
-        "target": {
-            "@type": "EntryPoint",
-            "actionPlatform": [
-                "http://schema.org/DesktopWebPlatform",
-                "http://schema.org/MobileWebPlatform"
-            ]
-        },
+        ],        
         "image": {
             "@type": "ImageObject",
             "author": "Viktorija Griņuka",
@@ -64,7 +57,7 @@
                 "name": "Antons Jelčins",
                 "familyName": "Jelčins",
                 "givenName": "Antons"
-            },
+            },            
             "potentialAction": {
                 "@type": "ReadAction",
                 "agent": {
@@ -74,6 +67,13 @@
                 "object": {
                     "@type": "Book",
                     "name": "How to not give up and continue studying at University"
+                },
+                "target": {
+                    "@type": "EntryPoint",
+                    "actionPlatform": [
+                        "http://schema.org/DesktopWebPlatform",
+                        "http://schema.org/MobileWebPlatform"
+                    ]
                 }
             }
         }

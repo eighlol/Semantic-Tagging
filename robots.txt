@@ -1,0 +1,2 @@
+Sitemap: https://eighlol.github.io/semantic-tagging/sitemap.xml
+User-agent: *
